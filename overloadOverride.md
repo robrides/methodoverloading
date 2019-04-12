@@ -1,6 +1,6 @@
 ## Overload vs Override
 
-Overriding and Overloading are two very important concepts in Java. They are _confusing_ for Java 'novice' programmers. This post illustrates their differences by using two simple examples.
+Overriding and Overloading are two very important concepts in Java. They are _confusing_ for Java `novice` programmers. This post illustrates their differences by using two simple examples.
 
 First, let's review method basics.
 
