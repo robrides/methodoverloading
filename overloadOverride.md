@@ -2,13 +2,14 @@
 
 First, let's review method basics.
 
-* A method declaration has seven parts.
-  * Access modifier
-  * Specifier
+* A method declaration has these parts.
+  * Access modifier (optional)
+  * Specifier (optional)
   * Return type
   * Method name
-  * List of parameters in parens
-  * Exception declaration
+  * Parenthesis
+  * List of parameters in parenthesis (optional)
+  * Exception declaration (optional)
   * Body 
  
 Which of these make up the method signature?
