@@ -1,5 +1,7 @@
 ## Overload vs Override
 
+Overriding and Overloading are two very important concepts in Java. They are _confusing_ for Java **'novice'** programmers. This post illustrates their differences by using two simple examples.
+
 First, let's review method basics.
 
 * A method declaration has these parts.
@@ -18,3 +20,6 @@ The name of the method, along with its list of parameter datatypes, is termed th
 
 > #### signature
 > A method's name and list of parameter datatypes.
+
+### Overloading a Method
+
