@@ -90,3 +90,7 @@ public class Bicycle extends ModeOfTransportation {
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
 * [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/07b4bda901353004c384bd88cf5c5837240d9962/jfop/Methods/parameters2.md)
 * [Crytstal Clear](https://www.youtube.com/watch?v=KmKOVdAGtzM)
+
+<hr>
+
+[Up](../README.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadingRules.md)
