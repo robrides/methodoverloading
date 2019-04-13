@@ -16,7 +16,7 @@ First, let's review some method basics.
  
 Which of these make up the method signature?
  
-The name of the method, along with its list of parameter datatypes, is termed the method's _signature_.
+  * The name of the method, along with its list of parameter datatypes, is termed the method's _signature_.
 
 > #### signature
 > A method's name and list of parameter datatypes.
@@ -30,11 +30,61 @@ The name of the method, along with its list of parameter datatypes, is termed th
 
 ### Discussion
 
-Imagine `StringBuilder` had only one version of its `append()` method.  You would have to convert everything you wanted to append to a `StringBuilder` to a String first, before calling `append()`.  That would be horrible.  A more accommodating software developer would have provided convenience in consuming their class, as did the developers of Java.  
+Imagine `StringBuilder` had only one version of its `append()` method.  You would have to convert everything you wanted to append to a `StringBuilder` to a String first, before calling `append()`.  That would be horrible.  A more _accommodating_ software developer would have provided convenience in consuming their class, as did the developers of Java.  
 
-Let's take a look at [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/class-use/StringBuilder.html).
+Let's take a look at the [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) class.
+
+Great, so what about overriding?  
+Overriding happens in a parent class, child class relationship. The parent class has a method that does something general and the child class can override that method to customize the method to suit their needs.
+
+Let's at an example...
+
+```public class ModeOfTransportation {
+
+	StringBuilder sb;
+	String type;
+	String color;
+	String meansOfPropulsion;
+
+	public ModeOfTransportation(String type, String color, String meansOfPropulsion) {
+		this.type = type;
+		this.meansOfPropulsion = meansOfPropulsion;
+		sb = new StringBuilder();
+	}
 
 
+	public void move(int c, int i) {
+
+		System.out.println("This thing moves...");
+		for (int j = 0; j < i; j++) {
+			sb.append(Character.toChars(c));
+			sb.append(Character.toChars(128692));
+		}
+		System.out.println(sb.toString());
+	}
+	
+}
+
+public class Bicycle extends ModeOfTransportation {
+
+	StringBuilder sb;
+	int numGears;
+	String color;
+	
+	public Bicycle(String color) {
+		super("Bicycle", color, "...by pedal power!");	
+	}
+
+	@Override
+	public void move(int c, int i) {
+		for (int j = 0; j < i; j++) {
+			sb.append(Character.toChars(c));
+			sb.append(Character.toChars(128692));
+		}
+		System.out.println(sb.toString());
+		System.out.println(getMeansOfPropulsion());
+	}
+}```
 
 Here are a few examples to illustrate the differences between overloading and overriding.
 
