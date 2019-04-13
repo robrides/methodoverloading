@@ -4,6 +4,7 @@ Overloading is nothing more than having two methods with the same name but diffe
 
 Is overloading an example of inheritance or polymorphism?
 
+```
 .
 .
 .
@@ -15,7 +16,12 @@ Is overloading an example of inheritance or polymorphism?
 .
 .
 .
-
+.
+.
+.
+.
+.
+```
 
 No, it's not an example of either.  it is just a different method that happens to have the same name.
 
@@ -31,11 +37,11 @@ Now that you know the difference between overloading and overriding, let's cover
 
 
 ### Don'ts...
-* You can't change **ONLY** the return type.
+* You _can't_ change **ONLY** the return type.
   * The compiler will assume you are trying to override the method which isn't legal unless the return type is a subtype of the return type declared in the superclass.
   * You **must** change the parameters and you _can_ change the return type.
   
   
 <hr>
 
-[Up](../README.md) | [Prev](https://github.com/robrides/methodoverloading/blob/master/overloadOverride.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadMethodChoiceAutoboxing.md)
+[Up](../master/README.md) | [Prev](https://github.com/robrides/methodoverloading/blob/master/overloadOverride.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadMethodChoiceAutoboxing.md)

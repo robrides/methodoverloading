@@ -14,4 +14,4 @@
 
 <hr>
 
-[Up](https://github.com/robrides/methodoverloading/blob/master/README.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadOverride.md)
+[Up](../master/README.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadOverride.md)

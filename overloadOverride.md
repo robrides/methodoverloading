@@ -21,6 +21,8 @@ Which of these make up the method signature?
 > #### signature
 > A method's name and list of parameter datatypes.
 
+[OCA Java SE 8 Programmer I Study Guide, Figure 4.1](https://github.com/robrides/methodoverloading/blob/master/OCAStudyGuideFig4.1.jpg)
+
 ### Definitions
  * Overloading
    * _"Overloading occurs when two or more methods in one class have the same method name but different parameters."_
@@ -97,4 +99,4 @@ public class Bicycle extends ModeOfTransportation {
 
 <hr>
 
-[Up](../README.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadingRules.md)
+[Up](../master/README.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/overloadingRules.md)
