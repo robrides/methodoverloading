@@ -53,9 +53,7 @@ public class ModeOfTransportation {
 		sb = new StringBuilder();
 	}
 
-
 	public void move(int c, int i) {
-
 		System.out.println("This thing moves...");
 		for (int j = 0; j < i; j++) {
 			sb.append(Character.toChars(c));
@@ -63,7 +61,6 @@ public class ModeOfTransportation {
 		}
 		System.out.println(sb.toString());
 	}
-	
 }
 
 public class Bicycle extends ModeOfTransportation {
@@ -78,16 +75,16 @@ public class Bicycle extends ModeOfTransportation {
 
 	@Override
 	public void move(int c, int i) {
-		for (int j = 0; j < i; j++) {
-			sb.append(Character.toChars(c));
-			sb.append(Character.toChars(128692));
-		}
-		System.out.println(sb.toString());
+		super.move(c, i);
 		System.out.println(getMeansOfPropulsion());
 	}
 }
 ```
-Here are a few examples to illustrate the differences between overloading and overriding.
+...to the code.
+
+### Another example:
+
+![Overloading vs Overriding](overloading-vs-overriding)
 
 #### Resources
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
