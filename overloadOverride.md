@@ -17,7 +17,7 @@ First, let's review some method basics.
  
 Which of these make up the method signature?
  
-  * The name of the method, along with its list of parameter datatypes, is termed the method's _signature_.
+  * The name of the method, along with its list of parameter datatypes, in order, is termed the method's _signature_.
 
 > #### signature
 > A method's name and list of parameter datatypes.
@@ -72,7 +72,6 @@ public class ModeOfTransportation {
 public class Bicycle extends ModeOfTransportation {
 
 	int numGears;
-	
 	
 	public Bicycle(String color, int numGears) {
 		super("Bicycle", color, "...by pedal power!");

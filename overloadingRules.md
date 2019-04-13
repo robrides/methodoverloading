@@ -24,7 +24,8 @@ Overloading is nothing more than having two methods in the same class with the s
 .
 ```
 > #### ...Answer
->**No, it's not an example of either**.  It is just a different method that happens to have the same name.
+>**No, it's not an example of either**. 
+It is just a different method that happens to have the same name.
 
 ## Overloading: _The Rules_
 
@@ -41,7 +42,8 @@ Now that you know the difference between overloading and overriding, let's cover
   * The compiler will assume you are trying to override the method which isn't legal unless the return type is a subtype of the return type declared in the superclass.
 * You _can't_ have two methods with the same name and same parameters. 
   * This will not compile.  Changing the order of the parameters, which changes the method signature, is allowed.
-  
+
+### Must...
 You **must** change the parameters and you _can_ change the return type.
   
 #### Resources

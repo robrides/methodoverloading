@@ -11,7 +11,7 @@ Great, what's a wrapper class?  A wrapper class is simply the corresponding Refe
 Let's look at some examples:
 
 ```
-Integer integerObject = new Integer(0);
+Integer integerObject = new Integer(2_000);
 int i = 100;
 
 integerObject = i; // Autoboxing of primitive int to wrapper class Integer
@@ -34,7 +34,7 @@ System.out.println("Value of longPrim int promotion: " + longPrim);
 ```
 
 ### Type Promotion
-When a data type of smaller size is promoted to the data type of bigger size than this is called type promotion, for example: byte data type can be promoted to short, a short data type can be promoted to int, long, double, etc.
+When a data type of a smaller size is promoted to the data type of a bigger size this is called type promotion. 
 
 * Data types on the left can be promoted to the type on the right.
   * byte → short → int → long
@@ -44,7 +44,10 @@ When a data type of smaller size is promoted to the data type of bigger size tha
   * long → float → double
 
 ### Method Choice and effects of Autoboxing
-When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain.  See Autoboxing.java under resources.
+When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain. See [Autoboxing.java](../master/blob/Autoboxing.java).
+
+### Summary
+Overloading and overriding are two separate concepts.  Overriding is an example of polymorphism, overloading is not. An knowledgeable and accommodating Java developer will ensure a class has a range of methods that take advantage of `Autoboxing` to handle the varying needs of callers. Awareness of `Autoboxing` and type promotion will ensure the unexpected, is expected!
 
 #### Resources
 * [Autoboxing.java](../master/blob/Autoboxing.java)
