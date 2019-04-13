@@ -9,10 +9,10 @@ public class Autoboxing {
 		overloadedMethod(i);
 		overloadedMethod(integerObject);
 
-//		Short shortObject = new Short((short) 127);
-//		short shorty = 1;
-//		overloadedMethod(shortObject);
-//		overloadedMethod(shorty);
+		Short shortObject = new Short((short) 127);
+		short shorty = 1;
+		overloadedMethod(shortObject);
+		overloadedMethod(shorty);
 		
 		Long longObject = new Long(10_000);
 		long longPrim = 1_000;
@@ -36,15 +36,15 @@ public class Autoboxing {
 
 	}
 
-//	public static void overloadedMethod(int i) {
-//		System.out.println("Overloaded add method, primitive type int: " + i);
-//	}
-//	public static void overloadedMethod(short i) {
-//		System.out.println("Overloaded add method, primitive type short: " + i);
-//	}
-//	public static void overloadedMethod(float i) {
-//		System.out.println("Overloaded add method, primitive type float: " + i);
-//	}
+	public static void overloadedMethod(int i) {
+		System.out.println("Overloaded add method, primitive type int: " + i);
+	}
+	public static void overloadedMethod(short i) {
+		System.out.println("Overloaded add method, primitive type short: " + i);
+	}
+	public static void overloadedMethod(float i) {
+		System.out.println("Overloaded add method, primitive type float: " + i);
+	}
 	public static void overloadedMethod(Integer i) {
 		System.out.println("Overloaded add method, Reference type Integer: " + i);
 	}
