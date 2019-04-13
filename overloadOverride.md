@@ -22,12 +22,13 @@ Which of these make up the method signature?
 > A method's name and list of parameter datatypes.
 
 ![OCA Java SE 8 Programmer I Study Guide, Figure 4.1](https://github.com/robrides/methodoverloading/blob/master/OCAStudyGuideFig4.1.jpg)
+OCA Java SE 8 Programmer I Study Guide, Figure 4.1
 
 ### What constitutes...
- * Overloading
+ * **Overloading**
    * _"Overloading occurs when two or more methods in one class have the same method name but different parameters."_
    * _"Overloading lets you make multiple versions of a method for convenience to the caller."_
- * Overriding
+ * **Overriding**
    * _"Overriding means having two methods with the same method name and parameters (i.e., method signature). One of the methods is in the parent class and the other is in the child class. Overriding allows a child class to provide a specific implementation of a method that is already provided in its parent class._"
 
 ### Discussion
@@ -95,7 +96,8 @@ public class Bicycle extends ModeOfTransportation {
 #### Resources
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
 * [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/07b4bda901353004c384bd88cf5c5837240d9962/jfop/Methods/parameters2.md)
-* [Crytstal Clear](https://www.youtube.com/watch?v=KmKOVdAGtzM)
+* [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808](https://www.oreilly.com/library/view/oca-oracle-certified/9781118957424/)
+* [Head First Java, 2nd Edition](https://www.oreilly.com/library/view/head-first-java/0596009208/)
 
 <hr>
 
