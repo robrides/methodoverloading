@@ -1,8 +1,9 @@
 ## Overloading ...continued
 
-Overloading is nothing more than having two methods with the same name but different arguments.
+Overloading is nothing more than having two methods in the same class with the same name but different arguments.
 
-Is overloading an example of inheritance or polymorphism?
+> #### Pop Quiz...
+>Is overloading an example of inheritance or polymorphism?
 
 ```
 .
@@ -23,7 +24,7 @@ Is overloading an example of inheritance or polymorphism?
 .
 ```
 
-No, it's not an example of either.  it is just a different method that happens to have the same name.
+**No, it's not an example of either**.  It is just a different method that happens to have the same name.
 
 ## Overloading: _The Rules_
 
