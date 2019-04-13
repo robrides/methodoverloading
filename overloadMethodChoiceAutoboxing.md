@@ -36,13 +36,12 @@ System.out.println("Value of longPrim int promotion: " + longPrim);
 ### Type Promotion
 #### When a data type of smaller size is promoted to the data type of bigger size than this is called type promotion, for example: byte data type can be promoted to short, a short data type can be promoted to int, long, double etc.
 
-Data types on the left can be promoted to the type on the right.
-
-byte → short → int → long
-short → int → long
-int → long → float → double
-float → double
-long → float → double
+* Data types on the left can be promoted to the type on the right.
+  * byte → short → int → long
+  * short → int → long
+  * int → long → float → double
+  * float → double
+  * long → float → double
 
 #### Resources
 #### Resources
