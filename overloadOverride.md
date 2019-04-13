@@ -84,7 +84,7 @@ public class Bicycle extends ModeOfTransportation {
 
 ### Another example:
 
-![Overloading vs Overriding](../overloading-vs-overriding)
+![Overloading vs Overriding](../overloading-vs-overriding.png
 
 #### Resources
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
