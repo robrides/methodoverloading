@@ -4,11 +4,11 @@ So, if you are considering being an accommodating software developer what things
  
 ### What is `Autoboxing`?
 
-Autoboxing is when Java uses the wrapper class's `valueOf()` method to create the wrapper object.
+Autoboxing is when Java uses the wrapper class's `valueOf()` method to create the wrapper Object.
 
-Great, what's a wrapper class?  A wrapper class is simply the object version of the primitive type.
+Great, what's a wrapper class?  A wrapper class is simply the corresponding Reference type variable of the Primitive type.
 
-Examples:
+Let's look at some examples:
 
 ```
 Integer integerObject = new Integer(0);
@@ -34,7 +34,7 @@ System.out.println("Value of longPrim int promotion: " + longPrim);
 ```
 
 ### Type Promotion
-#### When a data type of smaller size is promoted to the data type of bigger size than this is called type promotion, for example: byte data type can be promoted to short, a short data type can be promoted to int, long, double etc.
+When a data type of smaller size is promoted to the data type of bigger size than this is called type promotion, for example: byte data type can be promoted to short, a short data type can be promoted to int, long, double, etc.
 
 * Data types on the left can be promoted to the type on the right.
   * byte → short → int → long
@@ -43,8 +43,11 @@ System.out.println("Value of longPrim int promotion: " + longPrim);
   * float → double
   * long → float → double
 
+### Method Choice and effects of Autoboxing
+When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain.  See Autoboxing.java under resources.
+
 #### Resources
-#### Resources
+* [Autoboxing.java](../master/blob/Autoboxing.java)
 * [Beginnersbook.com](https://beginnersbook.com/2013/05/method-overloading/)
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
 * [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/07b4bda901353004c384bd88cf5c5837240d9962/jfop/Methods/parameters2.md)
