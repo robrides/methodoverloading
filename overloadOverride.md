@@ -39,6 +39,6 @@ Let's take a look at [StringBuilder](https://docs.oracle.com/javase/8/docs/api/j
 Here are a few examples to illustrate the differences between overloading and overriding.
 
 #### Resources
-* <a href="https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/" target="_blank">Programcreek.com<a/>
+* [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
 * [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/07b4bda901353004c384bd88cf5c5837240d9962/jfop/Methods/parameters2.md)
 * [Crytstal Clear](https://www.youtube.com/watch?v=KmKOVdAGtzM)
