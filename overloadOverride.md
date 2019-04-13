@@ -37,9 +37,10 @@ Let's take a look at the [StringBuilder](https://docs.oracle.com/javase/8/docs/a
 Great, so what about overriding?  
 Overriding happens in a parent class, child class relationship. The parent class has a method that does something general and the child class can override that method to customize the method to suit their needs.
 
-Let's at an example...
+Let's look at an example...
 
-```public class ModeOfTransportation {
+```
+public class ModeOfTransportation {
 
 	StringBuilder sb;
 	String type;
@@ -84,8 +85,8 @@ public class Bicycle extends ModeOfTransportation {
 		System.out.println(sb.toString());
 		System.out.println(getMeansOfPropulsion());
 	}
-}```
-
+}
+```
 Here are a few examples to illustrate the differences between overloading and overriding.
 
 #### Resources
