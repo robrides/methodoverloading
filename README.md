@@ -8,11 +8,9 @@
 * Explain what method overloading means in Java.  identify 
 
 ### Topics
-* [Overload vs override](overloadOverride.md)
-* What constitutes an overload
-* What are the rules?
-* Method choice and effects of autoboxing.
-
+* [Overload vs override, what constitutes an overload](overloadOverride.md)
+* [What are the rules?](overloadingRules.md
+* [Method choice and effects of `Autoboxing`.](overloadMethodChoiceAutoboxing.md)
 
 
 <hr>

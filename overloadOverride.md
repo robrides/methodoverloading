@@ -35,7 +35,8 @@ Imagine `StringBuilder` had only one version of its `append()` method.  You woul
 Let's take a look at the [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) class.
 
 Great, so what about overriding?  
-Overriding happens in a parent class, child class relationship. The parent class has a method that does something general and the child class can override that method to customize the method to suit their needs.
+
+Overriding happens in a parent class, child class relationship. The parent class has a method that does something general and the child class can override that method customizing the method to suit their needs.
 
 Let's look at an example...
 
@@ -49,15 +50,16 @@ public class ModeOfTransportation {
 
 	public ModeOfTransportation(String type, String color, String meansOfPropulsion) {
 		this.type = type;
+		this.color = color;
 		this.meansOfPropulsion = meansOfPropulsion;
 		sb = new StringBuilder();
 	}
 
 	public void move(int c, int i) {
-		System.out.println("This thing moves...");
+		System.out.println("This " + getType() + " moves...");
 		for (int j = 0; j < i; j++) {
 			sb.append(Character.toChars(c));
-			sb.append(Character.toChars(128692));
+			sb.appendCodePoint(128692);
 		}
 		System.out.println(sb.toString());
 	}
@@ -65,18 +67,20 @@ public class ModeOfTransportation {
 
 public class Bicycle extends ModeOfTransportation {
 
-	StringBuilder sb;
 	int numGears;
-	String color;
 	
-	public Bicycle(String color) {
-		super("Bicycle", color, "...by pedal power!");	
+	
+	public Bicycle(String color, int numGears) {
+		super("Bicycle", color, "...by pedal power!");
+		this.numGears = numGears;
 	}
-
+	
 	@Override
 	public void move(int c, int i) {
 		super.move(c, i);
 		System.out.println(getMeansOfPropulsion());
+		System.out.println("This " + getType() + " has " 
+				+ getNumGears() + " gears and a " + getColor() + "!");
 	}
 }
 ```
