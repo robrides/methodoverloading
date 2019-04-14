@@ -38,8 +38,8 @@
 
 ```
 > ### SOLUTIONS
-A, B, D.
-Lines 5 and 7 use autoboxing to convert an int to an Integer. Line 6 does not because valueOf() returns an Integer. Line 8 does not because null is not an int. The code does compile. However, when the for loop tries to unbox null into an int, it fails and throws a NullPointerException.
+>A, B, D.
+>Lines 5 and 7 use autoboxing to convert an int to an Integer. Line 6 does not because valueOf() returns an >Integer. Line 8 does not because null is not an int. The code does compile. However, when the for loop tries to >unbox null into an int, it fails and throws a NullPointerException.
 
 #### Resources
 * [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808](https://www.oreilly.com/library/view/oca-oracle-certified/9781118957424/)
