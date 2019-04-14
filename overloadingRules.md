@@ -6,22 +6,24 @@ Overloading is nothing more than having two methods in the same class with the s
 >Is overloading an example of inheritance or polymorphism?
 
 ```
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 > #### ...Answer
 >**It's a trick question...it's not an example of either!**. 
