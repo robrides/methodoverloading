@@ -50,10 +50,10 @@ When choosing how to construct a method, consideration for flexibility is the ma
 Overloading and overriding are two separate concepts.  Overriding is an example of polymorphism, overloading is not. An knowledgeable and accommodating Java developer will ensure a class has a range of methods that take advantage of `Autoboxing` to handle the varying needs of callers. Awareness of `Autoboxing` and type promotion will ensure the unexpected, is expected!
 
 #### Resources
-* [Autoboxing.java](../master/blob/Autoboxing.java)
+* [Autoboxing.java](https://github.com/robrides/methodoverloading/blob/master/Autoboxing.java)
 * [Beginnersbook.com](https://beginnersbook.com/2013/05/method-overloading/)
 * [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
-* [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/07b4bda901353004c384bd88cf5c5837240d9962/jfop/Methods/parameters2.md)
+* [Skill Distillery](https://github.com/SkillDistillery/SD20/blob/7d7ad4f8492a7f11c41cdffac77b6d5791927be2/java1/WrapperClasses/autoboxing.md)
 * [Skill Distillery Autoboxing](https://github.com/SkillDistillery/SD20/blob/7d7ad4f8492a7f11c41cdffac77b6d5791927be2/java1/WrapperClasses/autoboxing.md)
 * [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808](https://www.oreilly.com/library/view/oca-oracle-certified/9781118957424/)
 * [Head First Java, 2nd Edition](https://www.oreilly.com/library/view/head-first-java/0596009208/)
