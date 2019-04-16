@@ -8,7 +8,7 @@ So, if you are considering being an accommodating software developer what things
 
 Great, what's a wrapper class?  A wrapper class is simply the corresponding Reference type variable of the Primitive type.
 
-Let's look at some examples:
+Let's look at some examples, see [AutoboxingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/Autoboxing.java) and :
 
 ```
 Integer integerObject = new Integer(2_000);
@@ -44,7 +44,7 @@ When a data type of a smaller size is promoted to the data type of a bigger size
   * long → float → double
 
 ### Method Choice and effects of Autoboxing
-When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain. See [AutoboxingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/Autoboxing.java) and [OverloadingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/OverloadingTest.java).
+When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain. See [OverloadingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/OverloadingTest.java).
 
 ### Summary
 Overloading and overriding are two separate concepts.  Overriding is an example of polymorphism, overloading is not. An knowledgeable and accommodating Java developer will ensure a class has a range of methods that take advantage of `Autoboxing` to handle the varying needs of callers. Awareness of `Autoboxing` and type promotion will ensure the unexpected, is expected.  However, according to [The Java Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html), "overloaded methods should be used sparingly, as they can make code much less readable."
