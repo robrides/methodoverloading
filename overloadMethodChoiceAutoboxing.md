@@ -4,7 +4,7 @@ So, if you are considering being an accommodating software developer what things
  
 ### What is `Autoboxing`?
 
-Autoboxing is when Java uses the wrapper class's `valueOf()` method to create the wrapper Object.
+`Autoboxing` is when Java uses the wrapper class's `valueOf()` method, behind the scenes, to create the wrapper Object.
 
 Great, what's a wrapper class?  A wrapper class is simply the corresponding Reference type variable of the Primitive type.
 
