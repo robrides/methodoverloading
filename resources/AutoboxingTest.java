@@ -13,11 +13,6 @@ public class AutoboxingTest {
 		integerObject = Integer.valueOf(i); // Manual boxing of primitive int to wrapper Integer
 		System.out.println("Manual boxing of primitive int with explicit .valueOf(): " + integerObject);
 
-		Short shortObject = new Short((short) 127);
-		short shorty = 1;
-		shortObject = shorty; // Autoboxing of primitive short to wrapper Short
-		System.out.println("Value of shortObject after autoboxing of short: " + shortObject);
-
 		Long longObject = new Long(10_000);
 		long longPrim = 1_000;
 		longObject = longPrim; // Autoboxing of primitive long to wrapper Long
