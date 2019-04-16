@@ -17,7 +17,8 @@ First, let's review some method basics.
  
 Which of these make up the method signature?
  
-  * The name of the method, along with its list of parameter datatypes, in order, is termed the method's _signature_.
+  * The name of the method, along with its list of parameter datatypes, in order, is termed the method's _signature_.  
+  * The compiler does not consider return type when differentiating methods, so you cannot declare two methods with the same signature even if they have a different return type.
 
 > #### signature
 > A method's name and list of parameter datatypes.  
