@@ -8,7 +8,7 @@ So, if you are considering being an accommodating software developer what things
 
 Great, what's a wrapper class?  A wrapper class is simply the corresponding Reference type variable of the Primitive type.
 
-Let's look at some examples, see [AutoboxingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/Autoboxing.java) and :
+Let's look at some examples, see [AutoboxingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/Autoboxing.java)
 
 ```
 Integer integerObject = new Integer(2_000);
