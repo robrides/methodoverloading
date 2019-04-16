@@ -31,11 +31,13 @@ OCA Java SE 8 Programmer I Study Guide, Figure 4.1
 ### What constitutes...
  * **Overloading**
    * _"Overloading occurs when two or more methods in one class have the same method name but different parameters."_
+   * _"If two methods of a class (whether both declared in the same class, or both inherited by a class, or one declared and one inherited) have the same name but signatures that are not override-equivalent, then the method name is said to be overloaded._"
    * _"Overloading lets you make multiple versions of a method for convenience to the caller."_
  * **Overriding**
    * _"Overriding means having two methods with the same method name and parameters (i.e., method signature). One of the methods is in the parent class and the other is in the child class. Overriding allows a child class to provide a specific implementation of a method that is already provided in its parent class._"
 
->programmcreek.com
+>[Java Language Specification](https://docs.oracle.com/javase/specs/jls/se7/html/jls-8.html#jls-8.4.9)   
+programmcreek.com
 
 ### Discussion
 
