@@ -1,6 +1,6 @@
 ## Overload vs Override
 
-"Overriding and Overloading are two very important concepts in Java. However, they are mildly _confusing_ for Java `novice` programmers."
+Overriding and Overloading are two very important concepts in Java. However, they are mildly _confusing_ for Java `novice` programmers.
 >_programcreek.com_ 
 
 First, let's review some method basics.
@@ -95,13 +95,17 @@ public class Bicycle extends ModeOfTransportation {
 ..._to the code_.
 
 ```
-.
-.
-.
-.
-.
-.
-.
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ### Another example:
