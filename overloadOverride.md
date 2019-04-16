@@ -20,8 +20,8 @@ Which of these make up the method signature?
   * The name of the method, along with its list of parameter datatypes, in order, is termed the method's _signature_.
 
 > #### signature
-> A method's name and list of parameter datatypes.
-_Skill Distiller_
+> A method's name and list of parameter datatypes.  
+_Skill Distiller_  
 _[The Java Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)_
 
 ![OCA Java SE 8 Programmer I Study Guide, Figure 4.1](https://github.com/robrides/methodoverloading/blob/master/OCAStudyGuideFig4.1.jpg)

@@ -27,7 +27,7 @@ Overloading is nothing more than having two methods in the same class with the s
 ```
 > #### ...Answer
 >**It's a trick question...it's not an example of either!**. 
-It is just a different method that happens to have the same name but different argument lists.
+It is just a different method that happens to have the same name but different argument lists.  
 _Head First Java_
 
 ## Overloading: _The Rules_
