@@ -2,25 +2,41 @@ package com.skilldistillery.presentationmethodoverloading.examples;
 
 public class OverloadingTest {
 
-// Mock 2, question 9
-// Given the code below,
-// what will be the output?"
+	public static void main(String[] args) {
+		Integer integerObject = new Integer(2_000);
+		int i = 100;
+		overloadedMethod(i);
+		overloadedMethod(integerObject);
 
-	void m1(int x) {
-		System.out.println("m1 int");
+		Short shortObject = new Short((short) 127);
+		short shorty = 1;
+		overloadedMethod(shortObject);
+		overloadedMethod(shorty);
+
+		Long longObject = new Long(10_000);
+		long longPrim = 1_000;
+		overloadedMethod(longPrim);
+		overloadedMethod(longObject);
+
 	}
 
-	void m1(double x) {
-		System.out.println("m1 double");
+	public static void overloadedMethod(int i) {
+		System.out.println("Overloaded add method, primitive type int: " + i);
 	}
 
-	void m1(String x) {
-		System.out.println("m1 String");
+	public static void overloadedMethod(short i) {
+		System.out.println("Overloaded add method, primitive type short: " + i);
 	}
 
-	public static void main(String[] args) throws Exception {
-		OverloadingTest ot = new OverloadingTest();
-		ot.m1(1.0);
+	public static void overloadedMethod(float i) {
+		System.out.println("Overloaded add method, primitive type float: " + i);
+	}
 
+	public static void overloadedMethod(Integer i) {
+		System.out.println("Overloaded add method, Reference type Integer: " + i);
+	}
+
+	public static void overloadedMethod(Long i) {
+		System.out.println("Overloaded add method, Reference type Long: " + i);
 	}
 }
