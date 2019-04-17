@@ -4,7 +4,7 @@ public class OverloadingTest {
 
 	public static void main(String[] args) {
 		Integer integerObject = new Integer(2_000);
-		int i = 100;
+		int i = 200;
 		overloadedMethod(i);
 		overloadedMethod(integerObject);
 
@@ -24,19 +24,27 @@ public class OverloadingTest {
 		System.out.println("Overloaded add method, primitive type int: " + i);
 	}
 
-	public static void overloadedMethod(short i) {
-		System.out.println("Overloaded add method, primitive type short: " + i);
+	public static void overloadedMethod(short s) {
+		System.out.println("Overloaded add method, primitive type short: " + s);
 	}
 
-	public static void overloadedMethod(float i) {
-		System.out.println("Overloaded add method, primitive type float: " + i);
+	public static void overloadedMethod(float f) {
+		System.out.println("Overloaded add method, primitive type float: " + f);
 	}
 
 	public static void overloadedMethod(Integer i) {
 		System.out.println("Overloaded add method, Reference type Integer: " + i);
 	}
 
-	public static void overloadedMethod(Long i) {
-		System.out.println("Overloaded add method, Reference type Long: " + i);
+	public static void overloadedMethod(Short s) {
+		System.out.println("Overloaded add method, Reference type Short: " + s);
+	}
+	
+	public static void overloadedMethod(Long l) {
+		System.out.println("Overloaded add method, Reference type Long: " + l);
+	}
+	
+	public static void overloadedMethod(Object o) {
+		System.out.println("Overloaded add method, Reference type Long: " + o);
 	}
 }

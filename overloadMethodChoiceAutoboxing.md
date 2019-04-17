@@ -47,12 +47,13 @@ When a data type of a smaller size is promoted to the data type of a bigger size
 When choosing how to construct a method, consideration for flexibility is the mark of a knowledgeable software developer.  Building methods that can take advantage of `Autoboxing` reflects a more thorough understanding of Java.  Ensure there are overloaded methods which can handle a range of datatypes. Let's look at more examples to better explain. See [OverloadingTest.java](https://github.com/robrides/methodoverloading/blob/master/resources/OverloadingTest.java).
 
 ### Summary
-Overloading and overriding are two separate concepts.  Overriding is an example of polymorphism, overloading is not. An knowledgeable and accommodating Java developer will ensure a class has a range of methods that take advantage of `Autoboxing` to handle the varying needs of callers. Awareness of `Autoboxing` and type promotion will ensure the unexpected, is expected.  However, according to [The Java Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html), "overloaded methods should be used sparingly, as they can make code much less readable."
+Overloading and overriding are two separate concepts.  Overriding is an example of polymorphism, overloading is not. A knowledgeable and accommodating Java developer will ensure a class has a range of methods that take advantage of `Autoboxing` to handle the varying needs of callers. However, according to The Java Tutorials, while, "Autoboxing and unboxing lets developers write cleaner code, making it easier to read," it also says, "overloaded methods should be used sparingly, as they can make code much less readable."
 
 #### Resources
 * [Autoboxing.java](https://github.com/robrides/methodoverloading/blob/master/Autoboxing.java)
 * [Beginnersbook.com](https://beginnersbook.com/2013/05/method-overloading/)
-* [Programcreek.com](https://www.programcreek.com/2009/02/overriding-and-overloading-in-java-with-examples/)
+* [The Java Tutorials, Autoboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html)
+* [The Java Tutorials, Overloading Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
 * [Skill Distillery Autoboxing](https://github.com/SkillDistillery/SD20/blob/7d7ad4f8492a7f11c41cdffac77b6d5791927be2/java1/WrapperClasses/autoboxing.md)
 * [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808](https://www.oreilly.com/library/view/oca-oracle-certified/9781118957424/)
 * [Head First Java, 2nd Edition](https://www.oreilly.com/library/view/head-first-java/0596009208/)
