@@ -60,4 +60,4 @@ Overloading and overriding are two separate concepts.  Overriding is an example 
 
 <hr>
 
-[Up](../master/README.md) | [Prev](https://github.com/robrides/methodoverloading/blob/master/overloadingRules.md) | [Next](https://github.com/robrides/methodoverloading/blob/master/sampleQuestion.md) 
+[Up](../master/README.md) | [Prev](https://github.com/robrides/methodoverloading/blob/master/overloadingRules.md) 
