@@ -43,7 +43,6 @@
 
 #### Resources
 * [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808](https://www.oreilly.com/library/view/oca-oracle-certified/9781118957424/)
-* [Crystal Clear](https://www.youtube.com/watch?v=KmKOVdAGtzM)
 
 <hr>
 
